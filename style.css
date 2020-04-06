@@ -1,0 +1,27 @@
+.hover{
+	width:100%;			
+	height:100%;
+	float:left;
+	overflow:hidden;
+	position:relative;
+	text-align:center;
+	cursor:default;
+
+}
+.img
+{
+	display:block;
+	position:relative;
+	-webkit-transition:all .4s linear;
+	transition:all .4s linear;
+
+}
+.grow:hover
+							{
+							  -webkit-transform: scale(2.2);
+							  -ms-transform: scale();
+							   transform: scale(1.5);
+							  transition: all 0.9s ease;
+
+							  
+							}
